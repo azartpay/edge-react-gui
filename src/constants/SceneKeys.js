@@ -63,6 +63,10 @@ export const CURRENCY_SETTINGS = {
     pluginName: 'litecoin',
     currencyCode: 'LTC'
   },
+  azartSettings: {
+    pluginName: 'azart',
+    currencyCode: 'AZART'
+  },
   dashSettings: {
     pluginName: 'dash',
     currencyCode: 'DASH'

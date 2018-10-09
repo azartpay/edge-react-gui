@@ -1,6 +1,6 @@
 # Edge Wallet
 
-## A multicurrency mobile wallet for Bitcoin, Bitcoin Cash, Ethereum, Dash, Litecoin, Ripple/XRP and Monero
+## A multicurrency mobile wallet for Bitcoin, Bitcoin Cash, Ethereum, Azart, Dash, Litecoin, Ripple/XRP and Monero
 
 ![Edge Wallet Screenshots](https://cdn-images-1.medium.com/max/1600/1*xMZMuK0_jGNZNzduvggsdw.png)
 

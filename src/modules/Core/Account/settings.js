@@ -32,6 +32,7 @@ export const SYNCED_ACCOUNT_DEFAULTS = {
   EOS: { denomination: '1000' },
   XRP: { denomination: '1000000' },
   XLM: { denomination: '10000000' },
+  AZART: { denomination: '100000000' },
   DASH: { denomination: '100000000' },
   DOGE: { denomination: '100000000' },
   DGB: { denomination: '100000000' },

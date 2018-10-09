@@ -46,6 +46,9 @@ export type SettingsState = {
   BTC: {
     denomination: string
   },
+  AZART: {
+    denomination: string
+  },
   DASH: {
     denomination: string
   },
