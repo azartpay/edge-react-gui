@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Airbitz/edge-react-gui.git"
+    "url": "git://github.com/EdgeApp/edge-react-gui.git"
   },
   "scripts": {
     "android:clean": "cd android && ./gradlew clean && rm -rf build && cd ../",
@@ -92,8 +92,11 @@
     "https-browserify": "0.0.1",
     "jsc-android": "216113.0.3",
     "lodash": "^4.17.2",
+    "material-ui": "^0.20.2",
     "os-browserify": "^0.1.2",
+    "parse-passwd": "git://github.com/doowb/parse-passwd.git",
     "path-browserify": "0.0.0",
+    "postinstall-build": "^5.0.3",
     "process": "^0.11.10",
     "prop-types": "^15.5.10",
     "querystring-es3": "^0.2.1",
@@ -101,7 +104,7 @@
     "react-native": "0.55.3",
     "react-native-animatable": "^1.1.0",
     "react-native-background-fetch": "^2.4.3",
-    "react-native-camera": "git://github.com/EdgeApp/react-native-camera.git#97e0b9a",
+    "react-native-camera": "git://github.com/EdgeApp/react-native-camera.git",
     "react-native-contacts": "git://github.com/EdgeApp/react-native-contacts.git",
     "react-native-contacts-wrapper": "git://github.com/EdgeApp/react-native-contacts-wrapper.git",
     "react-native-crypto": "^2.0.1",
@@ -114,13 +117,13 @@
     "react-native-firebase": "4.3.8",
     "react-native-flip-view": "git://github.com/EdgeApp/react-native-flip-view.git",
     "react-native-fs": "^2.11.15",
-    "react-native-http": "git://github.com/tradle/react-native-http#834492d",
-    "react-native-image-picker": "git://github.com/EdgeApp/react-native-image-picker.git",
+    "react-native-http": "git://github.com/tradle/react-native-http.git",
+    "react-native-image-picker": "git://github.com/azartpay/react-native-image-picker.git",
     "react-native-keyboard-aware-scroll-view": "^0.4.1",
     "react-native-linear-gradient": "^2.0.0",
     "react-native-locale": "^0.0.17",
     "react-native-mail": "git://github.com/EdgeApp/react-native-mail.git",
-    "react-native-material-kit": "git://github.com/EdgeApp/react-native-material-kit.git#fix-threadpool",
+    "react-native-material-kit": "git://github.com/EdgeApp/react-native-material-kit.git",
     "react-native-material-textfield": "git://github.com/EdgeApp/react-native-material-textfield.git",
     "react-native-modal": "^6.5.0",
     "react-native-permissions": "1.0.6",
@@ -137,10 +140,10 @@
     "react-native-sortable-listview": "^0.2.7",
     "react-native-sound": "^0.10.4",
     "react-native-swipe-gestures": "^1.0.2",
-    "react-native-tcp": "git://github.com/Airbitz/react-native-tcp.git#c6af8f728fcbbae23d20c0211fd5b6c322f7a446",
+    "react-native-tcp": "git://github.com/EdgeApp/react-native-tcp.git",
     "react-native-udp": "^2.0.0",
     "react-native-vector-icons": "^4.2.0",
-    "react-native-webview-file-upload-android": "https://github.com/rhinogram/react-native-webview-file-upload-android.git#feature/support-file-downloading",
+    "react-native-webview-file-upload-android": "git://github.com/rhinogram/react-native-webview-file-upload-android.git",
     "react-redux": "^5.0.5",
     "react-test-renderer": "^16.4.1",
     "readable-stream": "^1.0.33",
@@ -160,7 +163,7 @@
     "babel-preset-react-native": "^1.9.0",
     "body-parser": "^1.18.2",
     "detox": "^7.4.3",
-    "edge-plugin-simplex": "https://github.com/Airbitz/edge-plugin-simplex.git",
+    "edge-plugin-simplex": "git//github.com/EdgeApp/edge-plugin-simplex.git",
     "eslint": "^4.17.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-flowtype": "^2.35.0",
@@ -312,5 +315,9 @@
       "prettier-eslint --write",
       "git add"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/EdgeApp/edge-react-gui/issues"
+  },
+  "main": "index.js"
 }
